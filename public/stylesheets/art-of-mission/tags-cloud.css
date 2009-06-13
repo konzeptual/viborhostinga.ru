@@ -1,0 +1,19 @@
+/* from http://24ways.org/examples/marking-up-a-tag-cloud/example.html */
+/* display the individual items next to each other, not one-per-line */
+.tag_cloud li, .tag_list li { display: inline; }
+/* hide the extra context from CSS-enabled browsers, but not screenreaders */
+.tag_cloud span, .tag_list span { position: absolute; left: -999px; width: 990px; }
+/* size is purely presentational, based upon the class */
+.tag_cloud .size1, .tag_list .size1 { font-size: 1em; }
+.tag_cloud .size2, .tag_list .size2 { font-size: 1.3em; }
+.tag_cloud .size3, .tag_list .size3 { font-size: 1.6em; }
+.tag_cloud .size4, .tag_list .size4 { font-size: 1.9em; }
+.tag_cloud .size5, .tag_list .size5 { font-size: 2.2em; }
+.tag_cloud .size6, .tag_list .size6 { font-size: 2.5em; }
+
+/* .tag_list .not-popular { font-size: 1em; } */
+/* .tag_list .not-very-popular { font-size: 1.3em; } */
+/* .tag_list .somewhat-popular { font-size: 1.6em; } */
+/* .tag_list .popular { font-size: 1.9em; } */
+/* .tag_list .very-popular { font-size: 2.2em; } */
+/* .tag_list .ultra-popular { font-size: 2.5em; } */
