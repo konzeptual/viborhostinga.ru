@@ -26,7 +26,7 @@
 
           <ul id="main_nav">
             <li>
-<a href="/" class="current">Главная</a>
+<a href="/" >Главная</a>
 </li>
 <li>
 <a href="/provodnik" >Проводник</a>
@@ -47,49 +47,245 @@
       <div id="main">
 	<div class="left" id="main_left">	
          <div class="post">
-            
+            <h1>Карта сайта</h1>
 
-	    <div id="splash">
-  <div class="post">
-    
-      <p>Привет.<br/>
-Меня зовут <a href="/o-vibr-hoste/" title="О Выбр Хосте.">Выбр Хост</a>.
-Я здесь для того, чтобы помочь найти нужную вам информацию о хостинге и о том что с ним связано.</p>
-
-<p>Для начала просто посетите <a href="/enciklopediya/" title="Энциклопедия Выбр Хоста">Энциклодепию Выбр Хоста</a>.<br/>
-Будьте как дома.</p>
-    
-  </div>
-</div>
-
-<h2>Новости:</h2>
-
+	    <ul>
   
-    <h3><a href="/novosti/2009/06/13/vibr-host-menyaetsya/">Выбр Хост меняется.</a></h3>
-    <div class="date">
-      13.06.2009
-    </div> 
-    <p>У нас новый дизайн!</p>
-
-<p>Простой, элегантный и функциональный. Во всяком случае задумывался он именно таким.
-Надеюсь, вам понравится!</p>
-
-<p>Ваш,<br/>
-Выбр Хост.</p>
     
   
-    <h3><a href="/novosti/2009/04/12/my-v-efire/">Выбр Хост в эфире!</a></h3>
-    <div class="date">
-      12.04.2009
-    </div> 
-    12 апреля далекого 61-ого года мы полетели в космос. Сегодня, 40 с лишним лет спустя взлетает <a href="/"> ВыборХостинга.ru</a> - проект, помогающий вам понять кто есть кто в мире хостинга. Уже доступно множество статей в <a href="/enciklopediya/">Энциклопедии Выбр Хоста</a>. 
-
-<strong>Лучшее - бесплатно!</strong>
-    
+    <li>
+      <a href="/rss/">RSS Feed</a>
+      
+    </li>
   
 
+  
 
-<div class="right"><a href="/novosti/">Все новости.</a></div>
+  
+    <li>
+      <a href="/provodnik/">Проводник</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/poisk/">Поиск</a>
+      
+        <ul>
+          
+  
+    <li>
+      <a href="/poisk/po-metke/">По метке</a>
+      
+    </li>
+  
+
+        </ul>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/o-proekte/">О проекте</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/o-vibr-hoste/">О Выбр Хосте</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/novosti/">Новости</a>
+      
+        <ul>
+          
+  
+    <li>
+      <a href="/novosti/2009/04/12/my-v-efire/">Выбр Хост в эфире!</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/novosti/2009/06/13/vibr-host-menyaetsya/">Выбр Хост меняется.</a>
+      
+    </li>
+  
+
+        </ul>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/raznoe/">Разное</a>
+      
+        <ul>
+          
+  
+
+  
+
+        </ul>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/svobodnaya-licenziya/">Свободная лицензия</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/">Энциклопедия</a>
+      
+        <ul>
+          
+  
+    <li>
+      <a href="/enciklopediya/ftp-dostup/">FTP доступ</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/ip-adres/">IP-адрес</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/ssh/">SSH</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/kakim-byvaet-xosting/">Каким бывает хостинг</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/kakoj-xosting-vybrat-windows-ili-linux/">Какой хостинг выбрать - Windows или Linux</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/kogda-nuzhen-ssl-sertifikat/">Когда нужен SSL-сертификат</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/skolko-nuzhno-mesta-dlya-moego-vebsajta/">Сколько нужно места для моего вебсайта?</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/testovyj-period/">Тестовый период</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/upravlenie-s-pomoshhyu-htaccess/">Управление с помощью .htaccess</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/chto-takoe-server/">Что такое сервер</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/chto-takoe-trafik-i-skolko-ego-nado/">Что такое трафик и сколько его надо</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/chto-takoe-xosting/">Что такое хостинг</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/chto-takoe-ssl-sertifikat/">Что такое SSL-сертификат</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/chto-na-samom-dele-znachit-neogranichennyj-trafik/">Что на самом деле значит "неограниченный трафик"</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/zachem-nuzhen-vydelennyj-ip-adres/">Зачем нужен выделенный IP-адрес</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/vydelennyj-ip-adres/">Выделенный IP-адрес</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/vebserver/">Вебсервер</a>
+      
+    </li>
+  
+
+  
+    <li>
+      <a href="/enciklopediya/domennye-aliasy/">Доменные алиасы</a>
+      
+    </li>
+  
+
+        </ul>
+      
+    </li>
+  
+
+  
+</ul>
 
 
          </div>
