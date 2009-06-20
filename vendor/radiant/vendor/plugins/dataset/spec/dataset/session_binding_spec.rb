@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__)) + '/../spec_helper'
+require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe Dataset::SessionBinding do
   before :all do
@@ -54,6 +54,12 @@ describe Dataset::SessionBinding do
       Thing.last.created_on.should_not be_nil
       Thing.last.updated_on.should_not be_nil
     end
+    
+    it 'should support belongs_to associations using symbolic name of associated type' do
+      person_id = @binding.create_record Person, :person
+      @binding.create_record Note, :note, :person => :person
+      Note.last.person_id.should == person_id
+    end
   end
   
   describe 'create_model' do
@@ -72,6 +78,13 @@ describe Dataset::SessionBinding do
       person = @binding.create_model Person, :first_name => 'Adam', :last_name => 'Williams'
       person.last_name.should == 'Williams'
     end
+    
+    
+    it 'should support belongs_to associations using symbolic name of associated type' do
+      person_id = @binding.create_record Person, :person
+      @binding.create_model Note, :note, :person => :person
+      Note.last.person_id.should == person_id
+    end
   end
   
   describe 'model finders' do
@@ -85,6 +98,17 @@ describe Dataset::SessionBinding do
       lambda do
         @context.things(:whatever)
       end.should raise_error(NoMethodError)
+    end
+    
+    it 'should exist for the base classes of created types' do
+      @binding.create_record State, :state_one
+      @context.places(:state_one).should_not be_nil
+      @context.places(:state_one).should == @context.states(:state_one)
+    end
+    
+    it 'should exist for all ancestors' do
+      @binding.create_record NorthCarolina, :nc
+      @context.states(:nc).should == @context.north_carolinas(:nc)
     end
     
     it 'should exist for types made with create_model' do
@@ -109,13 +133,27 @@ describe Dataset::SessionBinding do
       @context.notes(:note_one, :note_two).should == [@note_one, note_two]
       @context.note_id(:note_one, :note_two).should == [@note_one.id, note_two.id]
     end
+    
+    it 'should support models inside modules' do
+      @binding.create_record Nested::Place, :myplace, :name => 'Home'
+      @context.nested_places(:myplace).name.should == 'Home'
+    end
   end
   
   describe 'name_model' do
+    before do
+      @state = State.create!(:name => 'NC')
+      @binding.name_model(@state, :mystate)
+    end
+    
     it 'should allow assigning a name to a model for later lookup' do
-      thing = Thing.create!
-      @binding.name_model(thing, :mything)
-      @binding.find_model(Thing, :mything).should == thing
+      @binding.find_model(State, :mystate).should == @state
+    end
+    
+    it 'should allow finding STI' do
+      @context = Object.new
+      @context.extend @binding.model_finders
+      @context.places(:mystate).should == @state
     end
   end
   

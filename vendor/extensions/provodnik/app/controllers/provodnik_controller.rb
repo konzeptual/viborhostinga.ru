@@ -4,6 +4,7 @@ class ProvodnikController < ApplicationController
 
   def show
     @sidebar = Snippet.find_by_name('sidebar').content
+    
   end
 
 end

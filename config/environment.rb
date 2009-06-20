@@ -20,15 +20,10 @@ Radiant::Initializer.run do |config|
   # To use Rails without a database, you must remove the Active Record framework
   config.frameworks -= [ :action_mailer ]
   
-  # Only load the plugins named here, in the order given. By default, all plugins 
-  # in vendor/plugins are loaded in alphabetical order.
-  # :all can be used as a placeholder for all plugins not explicitly named
-  # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
-  
   # Only load the extensions named here, in the order given. By default all 
   # extensions in vendor/extensions are loaded, in alphabetical order. :all 
   # can be used as a placeholder for all extensions not explicitly named. 
-  config.extensions = [:share_layouts, :all]
+  # config.extensions = [ :all ] 
 
   # Force all environments to use the same logger level 
   # (by default production uses :info, the others :debug)
@@ -40,7 +35,7 @@ Radiant::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :session_key => '_radiant_session',
-    :secret      => '7f4a64c64b261f7ce190d72468ae3a0ddb69fea7'
+    :secret      => '5458e6485af02dba5c21fbfa97b194330334f387'
   }
   
   # Use the database for sessions instead of the cookie-based default,
@@ -81,8 +76,13 @@ Radiant::Initializer.run do |config|
     end
 
     # Response Caching Defaults
-    ResponseCache.defaults[:directory] = ActionController::Base.page_cache_directory
-    ResponseCache.defaults[:logger]    = ActionController::Base.logger
+    config.middleware.use ::Radiant::Cache
+    # # alternative for older version
+    # if defined? ResponseCache == 'constant'
+    #   ResponseCache.defaults[:expire_time] = 12.hours
+    # else
+    #   SiteController.cache_timeout = 12.hours
+    # end
 
     # AK
     # Use custom url to search tags
@@ -92,8 +92,4 @@ Radiant::Initializer.run do |config|
 
     Radiant::Config['paginate.url_route'] = 'stranitsa-'
   end
-
-
-
-
 end

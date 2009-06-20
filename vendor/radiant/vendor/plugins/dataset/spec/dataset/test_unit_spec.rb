@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__)) + '/../spec_helper'
+require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 require 'test/unit/testresult'
 class Test::Unit::TestCase
@@ -202,6 +202,7 @@ describe Test::Unit::TestCase do
   
   def run_testcase(testcase)
     result = Test::Unit::TestResult.new
+    testcase.module_eval { def test_dont_complain; end }
     testcase.suite.run(result) {}
     result.failure_count.should be(0)
     result.error_count.should be(0)

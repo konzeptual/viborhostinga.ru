@@ -4,9 +4,10 @@ ActiveRecord::Schema.define(:version => 20081126181722) do
     t.column :last_name, :string
   end
   
-  create_table :places, :force => true do |t|
+  create_table :places_table, :force => true do |t|
     t.column :name, :string
     t.column :location, :string 
+    t.column :type, :string
   end
   
   create_table :things, :force => true do |t|
@@ -17,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20081126181722) do
   end
   
   create_table :notes, :force => true do |t|
+    t.column :person_id, :integer
     t.column :content, :string
     t.column :created_at, :datetime
     t.column :updated_at, :datetime

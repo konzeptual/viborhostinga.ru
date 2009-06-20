@@ -1,8 +1,8 @@
 = vizres
 
-Enables rendering of the body of an HTTP response from inside a functional test.
-This makes it easy to diagnose problems when building assert_select statements
-or just sanity check the output of the test.
+Enables rendering of the body of an HTTP response from inside controller and
+integration tests. This makes it easy to diagnose problems when building
+assert_select statements or just sanity check the output of the test.
 
 == Installation
 
@@ -17,6 +17,10 @@ Or install the plugin in your Rails project:
 Or clone the project:
 
   git clone git://github.com/pelargir/vizres.git
+
+Then require vizres in your test_helper.rb or spec_helper.rb file:
+
+  require 'vizres'
 
 == Usage
 

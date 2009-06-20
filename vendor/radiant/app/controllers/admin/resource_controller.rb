@@ -22,7 +22,7 @@ class Admin::ResourceController < ApplicationController
 
     r.singular.publish(:xml, :json) { render format_symbol => model }
 
-    r.invalid.publish(:xml, :json) { render format_symbol => model.errors, :status => :unprocessible_entity }
+    r.invalid.publish(:xml, :json) { render format_symbol => model.errors, :status => :unprocessable_entity }
     r.invalid.default {  announce_validation_errors; render :action => template_name }
 
     r.stale.publish(:xml, :json) { head :conflict }
@@ -66,6 +66,19 @@ class Admin::ResourceController < ApplicationController
     response_for :destroy
   end
 
+  def template_name
+    case self.action_name
+    when 'index'
+      'index'
+    when 'new','create'
+      'new'
+    when 'edit', 'update'
+      'edit'
+    when 'remove', 'destroy'
+      'remove'
+    end
+  end
+
   protected
 
     def rescue_action(exception)
@@ -76,17 +89,6 @@ class Admin::ResourceController < ApplicationController
         response_for :stale
       else
         super
-      end
-    end
-
-    def template_name
-      case self.action_name
-      when 'new','create'
-        'new'
-      when 'edit', 'update'
-        'edit'
-      when 'remove', 'destroy'
-        'remove'
       end
     end
     
@@ -161,7 +163,7 @@ class Admin::ResourceController < ApplicationController
     end
 
     def clear_model_cache
-      cache.clear
+      Radiant::Cache.clear if defined?(Radiant::Cache)
     end
 
     def format_symbol
@@ -173,7 +175,7 @@ class Admin::ResourceController < ApplicationController
     end
     
     # Assist with user agents that cause improper content-negotiation
-    warn "Remove default HTML format, Accept header no longer used. (#{__FILE__}: #{__LINE__})" if Rails.version !~ /^2\.1/
+    # warn "Remove default HTML format, Accept header no longer used. (#{__FILE__}: #{__LINE__})" if Rails.version !~ /^2\.1/
     def populate_format
       params[:format] ||= 'html' unless request.xhr?
     end
