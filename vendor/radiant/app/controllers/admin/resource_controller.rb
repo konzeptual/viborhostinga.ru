@@ -21,6 +21,9 @@ class Admin::ResourceController < ApplicationController
     r.plural.publish(:xml, :json) { render format_symbol => models }
 
     r.singular.publish(:xml, :json) { render format_symbol => model }
+    
+    r.not_found.publish(:xml, :json) { head :not_found }
+    r.not_found.default { announce_not_found; redirect_to continue_url(params) }
 
     r.invalid.publish(:xml, :json) { render format_symbol => model.errors, :status => :unprocessable_entity }
     r.invalid.default {  announce_validation_errors; render :action => template_name }
@@ -66,19 +69,6 @@ class Admin::ResourceController < ApplicationController
     response_for :destroy
   end
 
-  def template_name
-    case self.action_name
-    when 'index'
-      'index'
-    when 'new','create'
-      'new'
-    when 'edit', 'update'
-      'edit'
-    when 'remove', 'destroy'
-      'remove'
-    end
-  end
-
   protected
 
     def rescue_action(exception)
@@ -87,6 +77,8 @@ class Admin::ResourceController < ApplicationController
         response_for :invalid
       when ActiveRecord::StaleObjectError
         response_for :stale
+      when ActiveRecord::RecordNotFound
+        response_for :not_found
       else
         super
       end
@@ -156,6 +148,10 @@ class Admin::ResourceController < ApplicationController
 
     def announce_removed
       flash[:notice] = "#{humanized_model_name} has been deleted."
+    end
+    
+    def announce_not_found
+      flash[:notice] = "#{humanized_model_name} could not be found."
     end
 
     def announce_update_conflict

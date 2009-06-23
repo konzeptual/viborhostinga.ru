@@ -1,7 +1,27 @@
 == Change Log
 
-=== 0.8.0 RC1
+=== 0.8.0 Asterism
 
+* Warn about using the RedCloth 3 fallback. [Sean Cribbs, Jason Garber]
+* Prevent stty errors on JRuby while running bootstrap. [Sean Cribbs]
+* Moved template_name to ApplicationController [Jim Gay, Michael Kessler]
+* Remove vizres plugin. [Sean Cribbs]
+* Update instance config/environments to remove ResponseCache [Jim Gay]
+* Remove :order option from <r:children:count />, which causes errors on
+postgresql. [Sean Cribbs]
+* Prevent recursion via the <r:content /> tag. [Sean Cribbs]
+* Update Highline. [Sean Cribbs]
+* Update Cucumber and RSpec, clean up some features and fix specs. [Sean Cribbs]
+* Set the protected attributes for users in User.protected_attributes
+[Jim Gay]
+* Don't allow a nil ETag in SiteController. [David Cato]
+* Prevent failed login message from sticking around. [Kunal Shah]
+* Fix failing test regarding extension order. [Brett McHargue]
+* Catch ActiveRecord::RecordNotFound in Admin::ResourceController
+[Jim Gay]
+* Catch missing template errors for show routes [Jim Gay]
+* Fix with_error in render_matcher not causing the spec to fail when no
+exception raised. [Jason Garber]
 * Make features task run in instance mode. [Sean Cribbs]
 * Remove Admin::AbstractModelController. [Sean Cribbs]
 * Cleanup deprecated Gem::manage_gems. [Sean Cribbs]
