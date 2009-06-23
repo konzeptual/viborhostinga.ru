@@ -1,9 +1,0 @@
---- 
-expires: 2009-06-18 06:06:05.096139 -07:00
-headers: 
-  Status: 200 OK
-  ETag: 070822859cf60db8d39ee0cdfe562df7837225b7
-  X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.2
-  Last-Modified: Thu, 18 Jun 2009 13:01:05 GMT
-  cookie: []
-
