@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="description"/>
+    <meta name="keywords" content="keywords"/> 
+    <meta name="author" content="author"/> 
+    <title>ВыборХостинга</title>
+    <link rel="stylesheet" href="/stylesheets/winter-plain/main.css" type="text/css" media="screen" />
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="top">
+	<div class="left">
+	  <a href="/"><h1 id="site_title">ВыборХостинга.ru</h1></a>
+	  <div id="site_description">Выбор хостинга - легко и с удовольствием.</div>
+	</div>
+	<a href="/rss" class="button feed right"><span></span></a>
+	<div class="clearer"></div>
+      </div>
+
+      <div class="path" id="nav">
+
+          <ul id="main_nav">
+            <li>
+<a href="/" >Главная</a>
+</li>
+<li>
+<a href="/provodnik" >Проводник</a>
+</li>
+<li>
+<a href="/enciklopediya" class="current">Энциклопедия</a>
+</li>
+<li>
+<a href="/o-proekte" >О проекте</a>
+</li>
+
+</ul>
+
+		<div class="clearer"></div>
+    </div>
+
+
+      <div id="main">
+	<div class="left" id="main_left">	
+         <div class="post">
+            <h1>Какой хостинг выбрать - Windows или Linux</h1>
+
+	    
+  <div class="body">
+    <p>Для справки: OC = Операционная Система. В контексте - просто система.</p>
+
+<p>Все еще идут религиозные войны между поклонниками этих операционных систем. Не обошла эта война и рынок веб-хостинга. Ведь как Windows, так и Linux предоставляют полный набор приложений для обеспечения работы сервера<a href="/enciklopediya/chto-takoe-server/" title="Что такое сервер">[?]</a>. И хотя бы потому, что ни одна сторона еще на  капитулировала, а находит своих сторонников и противников, можно предположить, что у каждой есть что предложить своим последователям. Так какую систему выбрать вам?</p>
+
+<h3>Короткий ответ</h3>
+
+<p>Если вкратце, то главным критерием я считаю то, какими средствами вы пользовались чтобы создать ваш сайт. Если это был FrontPage, или для динамического содержимого использовался <a href="http://ru.wikipedia.org/wiki/ASP.NET" title="Википедия: об ASP">ASP</a> - то добро пожаловать в мир Microsoft Windows! Во всех остальных случаях - лучше остановиться на Linux.</p>
+
+<h3>А почему так?</h3>
+
+<p>Те же, кто не удовлетворился коротким ответом и жаждет все знать - читаем дальше.</p>
+
+<p>Прежде всего стоит развенчать одно заблуждение: Не стоит выбирать Windows потому, что у вас дома установлена именно она. Ведь сайты, написанные, скажем, на php на компьютере с Windows будут отлично работать на Linux-хостинге (так, кстати, обычно и происходит).  Да и администрировать сервер под Windows - это совсем не то же самое, что справляться со своим домашним компьютером.</p>
+
+<p>Есть некоторые моменты, которые <strong>не</strong> стоит рассматривать при выборе ОС для хостинга:</p>
+
+<ul>
+<li><strong>Безопасность</strong>.
+Выбор операционной системы - это не тот случай, когда стоит говорить о безопасности. И хотя бытует мнение, что Linux в среднем более надежен, гораздо важнее здесь опыт и профессионализм администратора. В подавляющем большинстве случаев сервера взламываются не благодаря свежим уязвимостям в ОС, а из за ошибок в конфигурировании. Так что безопасность вашего сайта зависит не от системы, а от персонала хостинг-компании. Или, если вы сами администрируете свой выделенный сервер - от вас.    </li>
+<li><strong>Стабильность</strong>.
+Те, кто работал с замечательным семейством Windows 95/98 привыкли к <a href="http://ru.wikipedia.org/wiki/Синий_экран_смерти" title="Что есть синий экран смерти.">синему экрану смерти</a>. Однако Windows не стоит на месте, к тому же Windows для серверов заметно стабильней. Так что опять же - тут дело в администраторе, а не в системе.    </li>
+<li><strong>Производительность</strong>
+Много копий сломано на тему "А кто быстрей". Но победитель так и не ясен. Есть различные тесты, поддерживающие как одну так и другую системы. Мы же оставим компании спорить между собой и признаем, что ваш сайт не будет работать быстрее под Windows или Linux. Дело тут скорее в том, какова квалифилация программиста-вебмастера - можно с легким движением руки (или одной строчкой кода) перечеркнуть все бонусы, какие вам гипотетически может дать "более быстрая ОС".</li>
+</ul>
+
+<h5>Намеки</h5>
+
+<ul>
+<li><p><strong>PHP vs ASP</strong>. Это, на мой взгляд, единственный <em>объективный</em> критерий для выбора.  Я не буду говорить о том, какой язык выбрать - PHP или ASP, это опять же пахнет религиозной войной. Если вы выбрали ASP - то вам явно стоит взять Windows хостинг. Конечно, есть активисты, которые пытаются адаптировать ASP для Linux, но сама компания Microsoft в этом - по вполне понятным причинам - не заинтересована, так что попытки эти никогда не выйдут на широкий рынок. PHP же отлично работает под обеими системами.</p></li>
+<li><p><strong>SSH &amp; FTPS</strong>.
+Windows-хостинг очень редко предоставляется с возможностью обновления вашего сайта с помощью <a href="/enciklopediya/ssh/" title="Подробней об SSH">SSH</a> - взамен вам наверняка предложат <a href="/enciklopediya/ftp-dostup/#FTPS" title="Немного о FTPS">FTPS</a> (FTP+SSL), что является вполне достойной альтернативой. Так что если же вы привыкли работать под SSH и не хотите менять привычки - Linux.</p></li>
+<li><p><strong>Цена вопроса</strong>
+В силу разных причин, одна из которых в том, что Linux бесплатен, он в среднем немного дешевле Windows хостинга.</p></li>
+</ul>
+
+<p>В конце концов - это борьба равных противников с разными идеалами. 
+<strong>Windows</strong>: Я плачу своим программистам, они создают хороший продукт, а клиенты покупают. Вот только как мы создали эту программу, какие алгоритмы использовали - это наш секрет. Ведь все довольны! 
+<strong>Linux</strong>: Код программы должен быть открытым - любой программист может скачать его, адаптировать под свои нужды и, конечно, улучшить. Это должно быть бесплатно! А зарабатываем мы на поддержке нашего продукта - его конфигурировании и настройки под нужды клиента.
+А какая идея ближе вам?</p>
+
+    
+      <div id="summary">
+	<h3>Итого:</h3>
+	<p>Windows и Linux - конкуренты, предлагающие продукты с очень схожими функциональными возможностями. Сложно сказать что подойдет именно вам. Единственный совет - если для вашего сайта вы используете язык ASP, то выбрать лучше Windows...</p>
+
+      </div>
+    
+    <div class="left"> 
+  <div class="date">
+    05.2009
+  </div> 
+</div>
+<div class="right">
+  <span class="tag">
+    
+  </span>
+</div>
+
+  </div>
+
+
+         </div>
+	</div>
+
+	<div class="right" id="main_right">
+	  
+	  <div id="sidebar">
+	    
+
+
+            <div class="content">
+   <form method="get" id="searchform" action="/poisk">
+        <div>
+          <input type="text" value="" name="q" id="s" />
+          <input type="submit" id="searchsubmit" value="Поиск" class="submit" />
+        </div>
+          </form>
+</div>
+
+	<h2>Метки</h2>
+
+
+<div>
+  <ol class="tag_cloud"><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/IIS" class="tag"><span class="caps">IIS</span></a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/IP-адрес" class="tag">IP-адрес</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/VDS" class="tag"><span class="caps">VDS</span></a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/apache" class="tag">apache</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/cpanel" class="tag">cpanel</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/dhcp" class="tag">dhcp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/dos" class="tag">dos</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/ftp" class="tag">ftp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/htaccess" class="tag">htaccess</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/https" class="tag">https</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/scp" class="tag">scp</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/ssh" class="tag">ssh</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/ssl" class="tag">ssl</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/Мегабайты" class="tag">Мегабайты</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/алиас" class="tag">алиас</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/безопасность" class="tag">безопасность</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/вебсервер" class="tag">вебсервер</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/виртуальный хостинг" class="tag">виртуальный хостинг</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/выделенный сервер" class="tag">выделенный сервер</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/домен" class="tag">домен</a></li><li class="size6"><span>5 pages are tagged with </span><a href="/poisk/po-metke/основы" class="tag">основы</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/размер" class="tag">размер</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/сервер" class="tag">сервер</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/сертификат" class="tag">сертификат</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/тест" class="tag">тест</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/трафик" class="tag">трафик</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/хитрость" class="tag">хитрость</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/хостинг" class="tag">хостинг</a></li></ol> 
+</div>
+
+	  </div>
+	</div>
+
+	<div class="clearer"></div>
+
+      </div>
+
+      <div id="footer">
+<div class="left">
+<p>  Материалы данного сайта бесплатны для использования и распространения. <a href="/svobodnaya-licenziya/">Лицензия Creative Common</a>. 
+</p>
+
+Проект выполнене с помощью <a href="http://radiantcms.org/">Radiant CMS</a>.
+Дизайн сайта <a href="http://arcsin.se/">Arcsin</a>
+</div>
+
+<div class="clearer"></div> 
+</div>
+
+    </div>
+    <script src="/javascripts/google-analytics.js" type="text/javascript"/> </script>
+</body>
+</html>
+

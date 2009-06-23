@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="description"/>
+    <meta name="keywords" content="keywords"/> 
+    <meta name="author" content="author"/> 
+    <title>ВыборХостинга</title>
+    <link rel="stylesheet" href="/stylesheets/winter-plain/main.css" type="text/css" media="screen" />
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="top">
+	<div class="left">
+	  <a href="/"><h1 id="site_title">ВыборХостинга.ru</h1></a>
+	  <div id="site_description">Выбор хостинга - легко и с удовольствием.</div>
+	</div>
+	<a href="/rss" class="button feed right"><span></span></a>
+	<div class="clearer"></div>
+      </div>
+
+      <div class="path" id="nav">
+
+          <ul id="main_nav">
+            <li>
+<a href="/" >Главная</a>
+</li>
+<li>
+<a href="/provodnik" >Проводник</a>
+</li>
+<li>
+<a href="/enciklopediya" class="current">Энциклопедия</a>
+</li>
+<li>
+<a href="/o-proekte" >О проекте</a>
+</li>
+
+</ul>
+
+		<div class="clearer"></div>
+    </div>
+
+
+      <div id="main">
+	<div class="left" id="main_left">	
+         <div class="post">
+            <h1>Каким бывает хостинг</h1>
+
+	    
+  <div class="body">
+    <p>Хостинг<a href="/enciklopediya/chto-takoe-xosting/" title="Что такое хостинг">[?]</a> бывает разным.</p>
+
+<a name="dedicatedServer">
+<h3>Выделенный сервер</h3>
+</a>
+
+<p>Самый интуитивно понятный вид хостинга. 
+В ваше полное распоряжение предоставляется сервер<a href="/enciklopediya/chto-takoe-server/" title="Что такое сервер">[?]</a> на площадке хостера. Это может быть как ваш собственный компьютер (этот вариант называется модным английским словом <strong>colocation</strong>), так и арендованный у компании <strong>dedicated</strong>).
+Вы настраиваете сервер специально под ваши нужды, имеете там полную свободу. Администрирование, конечно, можно переложить на заботливые плечи технического персонала компании. <!-- Кроме того, вы повышаете безопасность, стабильность работы. --></p>
+
+<p>В общем самое приятное - это <em>никаких ограничений</em>! Ни на объем памяти (можно купить дополнительные жесткие диски), ни на вычислительные мощности (добавить пару процессоров), ни на программное обеспечение и его конфигурацию. Полная свобода!</p>
+
+<p><a name="VDS"></p>
+
+<h3>Виртуальный выделенный сервер</h3>
+</a>
+<p>Хотя, возможно, вам не нужны вычислительный мощности всего сервера. Тогда не нужно платить за то, что не используете! Идея опять же проста - с помощью специальных программ хостер на одном компьютере создает <em>эмуляцию</em> нескольких серверов. И вы получаете <strong>Виртуальный выделенный сервер</strong> (или Virtual Dedicated Server - VDS). <em>Виртуальный</em> - так как в вашем распоряжении нет всех мощностей компьютера; <em>Выделенный</em> - так как вы все же имеете полную свободу в конфигурировании. Для конечного пользователя - то есть для вас, не так уж важно что сервер виртуальный - это всего лишь значит, что в вашем распоряжении меньшие вычислительные ресурсы (а мы как раз и не хотели платить за то, что не используем) при тех же преимуществах выделенного сервера.</p>
+
+<p><a name="virtualHosting"></p>
+
+<h3>Виртуальный хостинг</h3>
+
+<p></a></p>
+
+<p>Хотя обычно выделенные сервера - это перебор. Для подавляющего большинства клиентов подойдет виртуальный хостинг, также известный как общий или shared hosting. Концепцию вы уже знаете - поместить на один физический сервер несколько клиентов. Хостер просто позволяет клиентам пользоваться одним сервером: для каждого создается по крайней мере один аккаунт, своя директория и достаточно много собственных настроек. Пользователь в данном случае не может устанавливать программное обеспечение, а пользуется тем, что уже есть в предустановленном комплекте. Секрет в том, что обычно этого более чем хватает! Для хостера выгода очевидно - можно "посадить" множество клиентов на один сервер, они пользуются одним программным обеспечением (легче администрировать), и все счастливы! Клиенты, кстати, тоже - ведь цена в этом случае значительно снижается. О том, что получаете вы как клиент читайте в <a href="/enciklopediya/chto-vy-poluchaete-zakazyvaya-virtualnyj-xosting/" title="Что вы получаете заказываю виртуальный хостинг">этой</a> статье.</p>
+
+<h3>Что берем?</h3>
+
+<p>Вопрос на самом деле простой. Если вы абсолютно не уверены в обратном, то вам подойдет виртуальный хостинг. Это, в любой случае, хорошая стартовая площадка. А я помогу вам <a href="/enciklopediya/vybiraem-virtualnyj-shared-xosting/" title="Как удачно выбрать тариф виртуального хостинга">подобрать тариф</a>, который подойдет под ваш проект.</p>
+
+    
+      <div id="summary">
+	<h3>Итого:</h3>
+	<p>Хостинг бывает разным.</p>
+<ol>
+<li><strong>Выделенный сервер</strong>. В вашем полном распоряжении весь сервер.</li>
+<li><strong>Выделенный виртуальный сервер</strong>. Вы получаете сервер с вашим программным обеспечением и настройками, но делите вычислительные ресурсы компьютера с выделенными виртуальными серверами других клиентов.</li>
+<li><strong>Виртуальный</strong>. 
+Самый востребованный по причине доступной цены вид хостинга. Вы используете одно ПО и один компьютер совместно со многими другими клиентами.</li>
+</ol>
+      </div>
+    
+    <div class="left"> 
+  <div class="date">
+    05.2009
+  </div> 
+</div>
+<div class="right">
+  <span class="tag">
+    <a href="/poisk/po-metke/виртуальный хостинг" class="tag">виртуальный хостинг</a>, <a href="/poisk/po-metke/выделенный сервер" class="tag">выделенный сервер</a>, <a href="/poisk/po-metke/хостинг" class="tag">хостинг</a>, <a href="/poisk/po-metke/VDS" class="tag">VDS</a>
+  </span>
+</div>
+
+  </div>
+
+
+         </div>
+	</div>
+
+	<div class="right" id="main_right">
+	  
+	  <div id="sidebar">
+	    
+
+
+            <div class="content">
+   <form method="get" id="searchform" action="/poisk">
+        <div>
+          <input type="text" value="" name="q" id="s" />
+          <input type="submit" id="searchsubmit" value="Поиск" class="submit" />
+        </div>
+          </form>
+</div>
+
+	<h2>Метки</h2>
+
+
+<div>
+  <ol class="tag_cloud"><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/IIS" class="tag"><span class="caps">IIS</span></a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/IP-адрес" class="tag">IP-адрес</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/VDS" class="tag"><span class="caps">VDS</span></a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/apache" class="tag">apache</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/cpanel" class="tag">cpanel</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/dhcp" class="tag">dhcp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/dos" class="tag">dos</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/ftp" class="tag">ftp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/htaccess" class="tag">htaccess</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/https" class="tag">https</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/scp" class="tag">scp</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/ssh" class="tag">ssh</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/ssl" class="tag">ssl</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/Мегабайты" class="tag">Мегабайты</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/алиас" class="tag">алиас</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/безопасность" class="tag">безопасность</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/вебсервер" class="tag">вебсервер</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/виртуальный хостинг" class="tag">виртуальный хостинг</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/выделенный сервер" class="tag">выделенный сервер</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/домен" class="tag">домен</a></li><li class="size6"><span>5 pages are tagged with </span><a href="/poisk/po-metke/основы" class="tag">основы</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/размер" class="tag">размер</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/сервер" class="tag">сервер</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/сертификат" class="tag">сертификат</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/тест" class="tag">тест</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/трафик" class="tag">трафик</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/хитрость" class="tag">хитрость</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/хостинг" class="tag">хостинг</a></li></ol> 
+</div>
+
+	  </div>
+	</div>
+
+	<div class="clearer"></div>
+
+      </div>
+
+      <div id="footer">
+<div class="left">
+<p>  Материалы данного сайта бесплатны для использования и распространения. <a href="/svobodnaya-licenziya/">Лицензия Creative Common</a>. 
+</p>
+
+Проект выполнене с помощью <a href="http://radiantcms.org/">Radiant CMS</a>.
+Дизайн сайта <a href="http://arcsin.se/">Arcsin</a>
+</div>
+
+<div class="clearer"></div> 
+</div>
+
+    </div>
+    <script src="/javascripts/google-analytics.js" type="text/javascript"/> </script>
+</body>
+</html>
+

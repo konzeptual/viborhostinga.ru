@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="description"/>
+    <meta name="keywords" content="keywords"/> 
+    <meta name="author" content="author"/> 
+    <title>Winterplain Website Template</title>
+    <link rel="stylesheet" href="/stylesheets/winter-plain/main.css" type="text/css" media="screen" />
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="top">
+	<div class="left">
+	  <h1 id="site_title">ВыборХостинга.ru</h1>
+	  <div id="site_description">Выбор хостинга - легко и с удовольствием.</div>
+	</div>
+	<a href="#" class="button feed right"><span></span></a>
+	<div class="clearer"></div>
+      </div>
+
+      <div class="path" id="nav">
+
+          <ul id="main_nav">
+            <li>
+<a href="/" >Главная</a>
+</li>
+<li>
+<a href="/provodnik" >Проводник</a>
+</li>
+<li>
+<a href="/enciklopediya" class="current">Энциклопедия</a>
+</li>
+<li>
+<a href="/o-proekte" >О проекте</a>
+</li>
+
+</ul>
+
+		<div class="clearer"></div>
+    </div>
+
+
+      <div id="main">
+	<div class="left" id="main_left">	
+	  <!-- <div id="splash"> -->
+	  <!-- <div class="container"> -->
+	  <!-- <div class="post"> -->
+	  <!-- 	<h2><a href="#">Fresh highlight!</a></h2> -->
+	  <!-- 	<div class="date">June 17th, 2007 in <a href="#">Maecenas</a></div> -->
+	  <!-- 	<div class="body"> -->
+	  <!-- 	  <p>Winterplain is also available as a <a href="http://templates.arcsin.se/winterplain-wordpress-theme/">Wordpress theme</a>.</p> -->
+	  <!-- 	  <img src="images/winter-plain/sample_image.png" alt="Sample Image" height="130" width="130" class="left" /> -->
+	  <!-- 	  <p>Maecenas ornare lobortis risus. Etiam placerat varius mauris. Maecenas viverra. Sed feugiat. Donec mattis <a href="index.html">quam aliquam</a> risus. Nulla non felis sollicitudin urna blandit egestas. Integer et libero varius pede tristique ultricies. Cras nisl. Proin quis massa semper felis euismod ultricies.</p> -->
+	  <!-- 	  <p>Fusce porta pede nec eros. Maecenas ipsum sem, interdum non, aliquam vitae, interdum nec, metus.</p> -->
+	  <!-- 	</div> -->
+	  <!-- 	<div class="metadata"> -->
+	  <!-- 	  <div class="left"><span class="comment"><a href="#">4 Comments</a></span></div> -->
+	  <!-- 	  <div class="right"><span class="tag"><a href="#">porttitor</a>, <a href="#">arcu</a>, <a href="#">eget</a>, <a href="#">pretium</a></span></div> -->
+	  <!-- 	  <div class="clearer"></div> -->
+	  <!-- 	</div> -->
+
+	  <!-- </div> -->
+	  <!-- </div> -->
+	  <!-- </div> -->
+	  <div class="post">
+	    <h1>Энциклопедия</h1>
+	    <!-- <div class="date">Jun 13, 2006 by Vulputate</div> -->
+	    <div class="body">
+	      
+<div class="entry">
+  <h3><a href="/enciklopediya/vydelennyj-ip-adres/">Выделенный IP-адрес</a></h3>
+<!--  <p>Для того, чтобы выйти в просторы сети интернет, вы пользуетесь услугами провайдера. Схема проста - вы подключаетесь к провайдеру, он назначает вам ваш IP-адрес<a href="/enciklopediya/ip-adres/" title="Подробнее об IP-адресах">[?]</a>, и вы можете бороздить просторы сети, заходить на сайты, подключаться к другим компьютерам. Благодаря IP-адресу другие компьютеры знают, как к вам обращаться, куда пересылать информацию. Но вот вы отключились от интернета, и вам больше не нужен "ваш" IP-адрес. Зато у провайдера есть другие пользователи, и один из них как раз подключаются в этот момент, и провайдер назначает "ваш" IP ему. Такая техника часто используется и называется называется DHCP  (англ. Dynamic Host Configuration Protocol — протокол динамической конфигурации узла).</p>
+
+<p>Зачем это делается? Дело в том, что всего у провайдера может быть, скажем, 10 000 пользователей. Из них одновременно в сети бывает не больше 1000. Получается, что можно обслуживать 10 000 клиентов имея всего 1000 IP-адресов! Ведь количество IP-адресов принципиально  ограничено - при нынешнем положении дел их не может быть больше 4 миллиардов. А количество используемых постепенно приближается к этой цифре. Конечно, <a href="http://en.wikipedia.org/wiki/IPv4_address_exhaustion" title="Википедия: Истощение IP-адресов (на английском)">нет причин</a> для беспокойства. Просто нет нужды каждому созданному компьютеру назначать свой уникальный IP-адрес.</p>
+
+<p>В случае с хостингом ситуация немного другая - каждый сервер имеет свой выделенный IP-адрес. Но так как на сервере обычно располагается множество вебсайтов клиентов, то все они "живут" под одним IP. Если вам необходим свой IP, то эта услуга обычно заказывается отдельно.</p>
+
+<p>Открытым остался вопрос <a href="/enciklopediya/zachem-nuzhen-vydelennyj-ip-adres/" title="Зачем вам может понадобиться выделенный IP-адрес">"А зачем нужен выделенный IP-адрес?"</a>.</p>
+<h3> Итого: </h3>
+Выделенный IP-адрес - это уникальное цифровое имя для вашего сайта. Вы не делите его ни с кем, и он не изменяется со временем.
+
+
+  <a href="/enciklopediya/vydelennyj-ip-adres/#extended">Continue Reading&#8230;</a>
+  <p class="info">Posted by Выбр Хост on Jun 03, 2009</p> -->
+</div>
+<hr/>
+
+<div class="entry">
+  <h3><a href="/enciklopediya/domennye-aliasy/">Доменные алиасы</a></h3>
+<!--  <p>Алиасы (alias - псевдоним). Зарегистрированные домены, ссылающихся на одну папку.</p>
+
+<p>Скажем, у вас вот такая структура калатогов:</p>
+
+<pre>
+      public_html/
+                 my_project/
+                 (etc..)
+</pre>
+
+<p>Помимо основного домена <code>my-project.ru</code> вы можете иметь еще два <code>my_project.ru</code> и <code>myproject.ru</code>, причем все они указывают на одну папку - <code>public_html/my_project</code>. Это два дополнительных домена и есть алиасы (псевдонимы). В таком случае считается, что у вас есть один сайт с несколькими алиасами. Неважно, какое из трех имен вы наберете в строке браузера - все они приведут вас на одну страницу.</p>
+
+<p>Кстати, почта, поступающая на почтовые ящики алиасов, например на <code>my@my_project.ru</code>, будет перенаправлена на основной домен на адрес <code>my@my-project.ru</code></p>
+<h3> Итого: </h3>
+<p>Алиасы - зарегистрированные домены, указывающие на одну папку.</p>
+
+  <a href="/enciklopediya/domennye-aliasy/#extended">Continue Reading&#8230;</a>
+  <p class="info">Posted by Выбр Хост on May 29, 2009</p> -->
+</div>
+<hr/>
+
+<div class="entry">
+  <h3><a href="/enciklopediya/testovyj-period/">Тестовый период</a></h3>
+<!--  Известный так же как демо-период/пробный период.
+
+Если вы - пользователь Windows и устанавливали на свой компьютер платные программы, то идея вам наверняка уже знакома. Сперва вы скачиваете программу и можете пользоваться ей ограниченный срок без необходимости платить. Этот срок называется пробным/тестовым.
+
+В хостинге то же самое - некоторые компании предоставляют возможность попробовать качество услуг хостинг без необходимости платить за них. Обычно этот период - от 3 до 14 дней. Вы регистрируетесь и вам предоставляется все то, что вы получите, действительно приобретя этот тарифный план. Это время можно  отлично использовать, чтобы проверить загруженность хостинга, как быстро будет работать ваш сайт на нем, как оперативно и аккуратно отвечает тех поддержка, какие услуги и в какой форме предоставляются.
+В общем - полезная возможность.
+
+Тестовый период - это знак того, что компания думает о своих клиентах и уверена в качестве предоставляемых услуг. Ведь им, действительно, это ничего не стоит. Разве что чуть больше работы по обслуживанию людей, которые, возможно, так и не станут клиентами. Но это окупается.
+<h3> Итого: </h3>
+<p>Тестовый период - возможность без какой либо предварительной платы попробовать качество услуг хостера. На ограниченное время вам предоставляется тот же пакет услуг, что вы получите, став клиентом компании. Свидетельствует о разумной политике компании.</p>
+
+  <a href="/enciklopediya/testovyj-period/#extended">Continue Reading&#8230;</a>
+  <p class="info">Posted by Выбр Хост on May 29, 2009</p> -->
+</div>
+<hr/>
+
+<div class="entry">
+  <h3><a href="/enciklopediya/chto-takoe-ssl-sertifikat/">Что такое SSL-сертификат</a></h3>
+<!--  Когда вы бороздите просторы интернета, то обычно видите в адресной строке браузера что то вроде http://viborhostinga.ru.
+Это значит, вы используете протокол http для передачи данных. А еще это значит, что данные передаются без какого-либо шифрования, то есть плохой дядя может, "подслушав" ваше соединение с сайтом, без труда посмотреть что вы там такое передаете или наоборот - скачиваете. Обычно это вполне всех устраивает, ведь "подслушать" вообще говоря не так уж просто, да и нечасто вы передаете по сети жизненно важные сведения. Но нечасто - не значит никогда, и, поэтому, нужно найти способ защитить ваши данные. И, конечно, умные люди давно уже всё придумали, а именно - технологию SSL (англ. Secure Sockets Layer — протокол защищённых сокетов).
+
+В общем случае работает это так: некоторая всеми уважаемая компания выдает вам сертификат, подтверждающий что вы - это вы, а ваш сайт именно тот, за кого он себя выдает. Пользователь, заходящий на ваш сайт, (а, точнее его браузер) видит, что сертификат подписан "третьим доверенным лицом", и, таким образом, понимает, что зашел он не на подставной сайт, а на вполне надежный. По умному это называется контролем аутентичности сервера.  Далее, используя технологию SSL и выданный сертификат, производится шифрованное подключение от вашего сервера к компьютеру пользователя. И данные уже не передаются в открытом виде, и расшифровать их - задача очень трудная, если не сказать невозможная. Подробнее о технологии SSL можно прочитать <a title="Wikipedia: Что такое SSL/TLS" href="http://ru.wikipedia.org/wiki/TLS">здесь</a>.
+
+Кстати говоря, доверенные компании не ставят свою подпись где попало, а сперва проверят вас, ваши документы и другую дополнительную информацию - это уже зависит от типа сертификата. Да еще будет за свою подпись ежегодно брать денежку. Для тех, кому платить не хочется, есть выход - подписать сертификат можно и самому. Правда, в таком случае браузер пользователя вас не поймет (вас же нет в списках доверенных компаний) и выдаст предупреждение - мол, сертификат подписан неизвестно кем, хотите принять? Такое предупреждение может и отпугнуть. О том, когда нужно использовать SSL-сертификат и какой для вас подойдет - с собственной подписью или проверенный, можете почитать в <a title="Когда нужно использовать SSL-сертификаты" href="/enciklopediya/kogda-nuzhen-ssl-sertifikat/">этой статье</a>.
+
+Когда пользователь принял ваш сертификат и безопасное соединение установлено, вы увидите, что в строке адреса стоит уже не http, а https. Последняя буква - s значит <strong>s</strong>ecure(безопасный). То есть используется протокол https - а это ничего больше, как обычный всем понятный http при наличии шифрования SSL. Обычно при этом дополнительно появляется значок замка. Вот так это выглядит в Firefox и в Internet Explorer. 
+[gallery order="DESC"]
+<h3> Итого: </h3>
+<p>SSL-сертификаты - это способ обеспечения безопасного соединения в интернет. С их помощью обеспечивается:    </p>
+<ol>
+<li>Проверка подлинности вашего сайта ( если сертификат выдан третьей доверенной стороной).</li>
+<li>Шифрование данных между пользователем и вашим сайтом.</li>
+</ol>
+<p>Подписать SSL-сертификат вы можете и сами.</p>
+  <a href="/enciklopediya/chto-takoe-ssl-sertifikat/#extended">Continue Reading&#8230;</a>
+  <p class="info">Posted by Выбр Хост on May 29, 2009</p> -->
+</div>
+<hr/>
+
+<div class="entry">
+  <h3><a href="/enciklopediya/kogda-nuzhen-ssl-sertifikat/">Когда нужен SSL-сертификат</a></h3>
+<!--  <p>Вы знаете, что <a href="/enciklopediya/chto-takoe-ssl-sertifikat/" title="Что такое SSL-сертификат">SSL сертификат</a> - способ обеспечения безопасного соединения в интернете.</p>
+
+<h3>А нужен ли мне этот сертификат?</h3>
+
+<p>Критерий здесь - чувствительность информации, которую вы получаете, передаете и/или храните. К чувствительной информации можно отнести любые сведения, которые вы или пользователь вашего сайта не хотели бы вывешивать в 
+свободном доступе на доске объявлений. Прежде всего это, кончено, касается финансов. Для владельца онлайн-магазина наличие SSL-сертификата можно считать обязательным - какой человек согласится повесить, к примеру, номер своей кредитной карточки на столбе объявлений? Пользоваться ей на сайтах без шифрования - примерно то же самое. Есть, конечно, шанс, что никто этим не воспользуется, но зачем рисковать? Или вы храните адреса, дату рождения, номер паспорта клиента или другую информацию подобного рода - тогда вам тоже необходим сертификат.</p>
+
+<p>В общем правило простое - если пользователь не хотел бы делиться со всем миром передаваемой информацией - вы должны предоставить ему безопасное соединение. Можно, конечно, этого не делать, но тогда встает вопрос о доверии вам и вашему сайту. А доверие - хитрая штука: дается непросто, уходит легко.</p>
+
+<h3>Какой сертификат мне нужен</h3>
+
+<p>Как я <a href="/enciklopediya/chto-takoe-ssl-sertifikat/" title="Что такое SSL-сертификат">объяснял</a>,Бывают два вида SSL-сертификатов - Само-подписанные (self-signed) и выданные удостоверяющим центром (Certificate authority или CA). Выданные удостоверяющим центром, сертификаты обеспечивают как аутентификацию вашего сайта, так и шифрование данных. Тогда как само-подписанные - только шифрование, поскольку никто не подтвердил что вы - это вы. Неприятным моментом в этом случае является то, что браузер спросит пользователя - хотите ли вы принять само-подписанный сертификат сайта www.your-site.ru? И тому придется сделать пару лишних кликов по этим всплывающим окошкам. Вопрос тут в доверии. Спросите себя - доверяет ли мне пользователь, зашедший на сайт и не лень ли ему кликнуть пару кнопок, чтобы подтвердить это. </p>
+
+<p>Само-подписанные сертификаты могут быть хорошим выходом в случае, когда, к примеру, компания предоставляет своим сотрудникам доступ к важной информации с помощью интернета. Понятно, что сотрудники доверяют своей компании. Или если у вас некоммерческий проект, заслуживший хорошую репутацию, а вам нужно обрабатывать приватную информацию о клиентах. Или вы делаете проект для себя и своих друзей, требующий безопасного соединения. В любом случае пользователь уже вам доверяет.</p>
+
+<p>Сертификаты, выданные удостоверяющим центром, решают вопрос с доверием. Именно эти компании проверяют, что вы - это вы, и дают знать об этом пользователям своей подписью на сертификате. Этот вариант подойдет для любого бизнеса, когда клиент не знает вас и нуждается в дополнительных гарантиях.</p>
+
+<p>Подробнее о том, какие сертификаты выдаются уполномоченными центрами можно почитать <a href="http://www.ssl.ua/certificates" title="Какими бывают SSL-сертификаты">тут</a></p>
+
+<h3> Итого: </h3>
+<p>SSL-сертификат необходим тогда, когда вы передаете или получаете важную информацию, попадание которой в третьи руки недопустимо. Например, любая финансовая информация, номер паспорта и личные данные о пользователе и т.п. Можно использовать само-подписанные сертификаты, если вы знаете, что пользователь вам доверяет.</p>
+
+  <a href="/enciklopediya/kogda-nuzhen-ssl-sertifikat/#extended">Continue Reading&#8230;</a>
+  <p class="info">Posted by Выбр Хост on May 29, 2009</p> -->
+</div>
+<hr/>
+
+
+	      
+	    </div>
+	    <!-- <div class="metadata"> -->
+	    <!--   <div class="left"><span class="comment"><a href="#">6 Comments</a></span></div> -->
+	    <!--   <div class="right"><span class="tag"><a href="#">arcu</a>, <a href="#">eget</a>, <a href="#">pretium</a>, <a href="#">porttitor</a></span></div> -->
+	    <!--   <div class="clearer"></div> -->
+	    <!-- </div> -->
+	  </div>
+	  
+	</div>
+
+	<div class="right" id="main_right">
+	  
+	  <div id="sidebar">
+	    
+	    <!-- <h2>Search</h2> -->
+	    <div class="content">
+	      <form method="get" id="searchform" action="">
+		<div>
+		  <input type="text" value="" name="s" id="s" />
+		  <input type="submit" id="searchsubmit" value="Поиск" class="submit" />
+		</div>
+	      </form>
+	    </div>
+
+            <h2>About Me</h2>
+
+
+	<p>I&#8217;m just a demonstration of how easy it is to use Radiant to power a blog. <a href="/about/">More&#8230;</a></p>
+
+
+	<h2>Tag cloud</h2>
+
+
+<div class="content">
+<ol class="tag_cloud"><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//IIS" class="tag"><span class="caps">IIS</span></a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//Mb" class="tag">Mb</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//VDS" class="tag"><span class="caps">VDS</span></a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//alias" class="tag">alias</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//apache" class="tag">apache</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke//bezopasnost" class="tag">bezopasnost</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//cpanel" class="tag">cpanel</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//dhcp" class="tag">dhcp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//domain" class="tag">domain</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//ftp" class="tag">ftp</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//hitrost" class="tag">hitrost</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke//hosting" class="tag">hosting</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//https" class="tag">https</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//ip" class="tag">ip</a></li><li class="size5"><span>4 pages are tagged with </span><a href="/poisk/po-metke//osnovi" class="tag">osnovi</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//razmer" class="tag">razmer</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//scp" class="tag">scp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//sertefikat" class="tag">sertefikat</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//sertifikat" class="tag">sertifikat</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//server" class="tag">server</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//ssh" class="tag">ssh</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//ssl" class="tag">ssl</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//test" class="tag">test</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//trafik" class="tag">trafik</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//videlenniy-server" class="tag">videlenniy-server</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//virtualniy-hosting" class="tag">virtualniy-hosting</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//webserver" class="tag">webserver</a></li></ol> 
+</div>
+
+	<h2>Recent Entries</h2>
+
+
+	<ul>
+	<li><a href="/articles/2009/05/28/third-post/">Third Post</a></li>
+		<li><a href="/articles/2006/06/10/second-post/">Second Post</a></li>
+		<li><a href="/articles/2006/06/09/first-post/">First Post</a></li>
+	</ul>
+
+
+	<p><a href="/articles/">Archives&#8230;</a></p>
+
+
+	<h2>Syndicate</h2>
+
+
+	<p><a href="/rss/">Articles <span class="caps">RSS</span> Feed</a></p>
+
+	  </div>
+	</div>
+
+	<div class="clearer"></div>
+
+      </div>
+
+      <div id="footer">
+
+	<div id="footer">
+<div class="left">
+  Copyright &copy; 2009, Your Name Here. All rights reserved.<br />
+    This site is powered by <a href="http://radiantcms.org/">Radiant CMS</a>.
+
+
+<a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a>
+</div>
+
+<div class="clearer"></div> 
+</div>
+
+	<!-- <div class="left"> -->
+	<!--   &copy; 2007 <a href="#">Website.com</a> | <a href="#top">Go to top</a> -->
+	<!-- </div> -->
+
+
+	
+      </div>
+
+    </div>
+  </body>
+</html>

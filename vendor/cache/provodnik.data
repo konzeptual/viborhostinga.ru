@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="description"/>
+    <meta name="keywords" content="keywords"/> 
+    <meta name="author" content="author"/> 
+    <title>Winterplain Website Template</title>
+    <link rel="stylesheet" href="/stylesheets/winter-plain/main.css" type="text/css" media="screen" />
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="top">
+	<div class="left">
+	  <h1 id="site_title">ВыборХостинга.ru</h1>
+	  <div id="site_description">Выбор хостинга - легко и с удовольствием.</div>
+	</div>
+	<a href="#" class="button feed right"><span></span></a>
+	<div class="clearer"></div>
+      </div>
+
+      <div class="path" id="nav">
+
+          <ul id="main_nav">
+            <li>
+<a href="/" >Главная</a>
+</li>
+<li>
+<a href="/provodnik" class="current">Проводник</a>
+</li>
+<li>
+<a href="/enciklopediya" >Энциклопедия</a>
+</li>
+<li>
+<a href="/o-proekte" >О проекте</a>
+</li>
+
+</ul>
+
+		<div class="clearer"></div>
+    </div>
+
+
+      <div id="main">
+	<div class="left" id="main_left">	
+	  <!-- <div id="splash"> -->
+	  <!-- <div class="container"> -->
+	  <!-- <div class="post"> -->
+	  <!-- 	<h2><a href="#">Fresh highlight!</a></h2> -->
+	  <!-- 	<div class="date">June 17th, 2007 in <a href="#">Maecenas</a></div> -->
+	  <!-- 	<div class="body"> -->
+	  <!-- 	  <p>Winterplain is also available as a <a href="http://templates.arcsin.se/winterplain-wordpress-theme/">Wordpress theme</a>.</p> -->
+	  <!-- 	  <img src="images/winter-plain/sample_image.png" alt="Sample Image" height="130" width="130" class="left" /> -->
+	  <!-- 	  <p>Maecenas ornare lobortis risus. Etiam placerat varius mauris. Maecenas viverra. Sed feugiat. Donec mattis <a href="index.html">quam aliquam</a> risus. Nulla non felis sollicitudin urna blandit egestas. Integer et libero varius pede tristique ultricies. Cras nisl. Proin quis massa semper felis euismod ultricies.</p> -->
+	  <!-- 	  <p>Fusce porta pede nec eros. Maecenas ipsum sem, interdum non, aliquam vitae, interdum nec, metus.</p> -->
+	  <!-- 	</div> -->
+	  <!-- 	<div class="metadata"> -->
+	  <!-- 	  <div class="left"><span class="comment"><a href="#">4 Comments</a></span></div> -->
+	  <!-- 	  <div class="right"><span class="tag"><a href="#">porttitor</a>, <a href="#">arcu</a>, <a href="#">eget</a>, <a href="#">pretium</a></span></div> -->
+	  <!-- 	  <div class="clearer"></div> -->
+	  <!-- 	</div> -->
+
+	  <!-- </div> -->
+	  <!-- </div> -->
+	  <!-- </div> -->
+	  <div class="post">
+	    <h1>Проводник</h1>
+	    <!-- <div class="date">Jun 13, 2006 by Vulputate</div> -->
+	    <div class="body">
+	      Ваш проводник в мир хостинга.
+	      
+		<div id="extended">
+		  
+		</div>
+	      
+	    </div>
+	    <!-- <div class="metadata"> -->
+	    <!--   <div class="left"><span class="comment"><a href="#">6 Comments</a></span></div> -->
+	    <!--   <div class="right"><span class="tag"><a href="#">arcu</a>, <a href="#">eget</a>, <a href="#">pretium</a>, <a href="#">porttitor</a></span></div> -->
+	    <!--   <div class="clearer"></div> -->
+	    <!-- </div> -->
+	  </div>
+	  
+	</div>
+
+	<div class="right" id="main_right">
+	  
+	  <div id="sidebar">
+	    
+	    <!-- <h2>Search</h2> -->
+	    <div class="content">
+	      <form method="get" id="searchform" action="">
+		<div>
+		  <input type="text" value="" name="s" id="s" />
+		  <input type="submit" id="searchsubmit" value="Поиск" class="submit" />
+		</div>
+	      </form>
+	    </div>
+
+            <h2>About Me</h2>
+
+
+	<p>I&#8217;m just a demonstration of how easy it is to use Radiant to power a blog. <a href="/about/">More&#8230;</a></p>
+
+
+	<h2>Tag cloud</h2>
+
+
+<div class="content">
+<ol class="tag_cloud"><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//IIS" class="tag"><span class="caps">IIS</span></a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//Mb" class="tag">Mb</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//VDS" class="tag"><span class="caps">VDS</span></a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//alias" class="tag">alias</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//apache" class="tag">apache</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke//bezopasnost" class="tag">bezopasnost</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//cpanel" class="tag">cpanel</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//dhcp" class="tag">dhcp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//domain" class="tag">domain</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//ftp" class="tag">ftp</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//hitrost" class="tag">hitrost</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke//hosting" class="tag">hosting</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//https" class="tag">https</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//ip" class="tag">ip</a></li><li class="size5"><span>4 pages are tagged with </span><a href="/poisk/po-metke//osnovi" class="tag">osnovi</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//razmer" class="tag">razmer</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//scp" class="tag">scp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//sertefikat" class="tag">sertefikat</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//sertifikat" class="tag">sertifikat</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//server" class="tag">server</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//ssh" class="tag">ssh</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//ssl" class="tag">ssl</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//test" class="tag">test</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke//trafik" class="tag">trafik</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//videlenniy-server" class="tag">videlenniy-server</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//virtualniy-hosting" class="tag">virtualniy-hosting</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke//webserver" class="tag">webserver</a></li></ol> 
+</div>
+
+	<h2>Recent Entries</h2>
+
+
+	<ul>
+	<li><a href="/articles/2009/05/28/third-post/">Third Post</a></li>
+		<li><a href="/articles/2006/06/10/second-post/">Second Post</a></li>
+		<li><a href="/articles/2006/06/09/first-post/">First Post</a></li>
+	</ul>
+
+
+	<p><a href="/articles/">Archives&#8230;</a></p>
+
+
+	<h2>Syndicate</h2>
+
+
+	<p><a href="/rss/">Articles <span class="caps">RSS</span> Feed</a></p>
+
+	  </div>
+	</div>
+
+	<div class="clearer"></div>
+
+      </div>
+
+      <div id="footer">
+
+	<div id="footer">
+<div class="left">
+  Copyright &copy; 2009, Your Name Here. All rights reserved.<br />
+    This site is powered by <a href="http://radiantcms.org/">Radiant CMS</a>.
+
+
+<a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a>
+</div>
+
+<div class="clearer"></div> 
+</div>
+
+	<!-- <div class="left"> -->
+	<!--   &copy; 2007 <a href="#">Website.com</a> | <a href="#top">Go to top</a> -->
+	<!-- </div> -->
+
+
+	
+      </div>
+
+    </div>
+  </body>
+</html>

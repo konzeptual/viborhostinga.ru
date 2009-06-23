@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="description"/>
+    <meta name="keywords" content="keywords"/> 
+    <meta name="author" content="author"/> 
+    <title>ВыборХостинга</title>
+    <link rel="stylesheet" href="/stylesheets/winter-plain/main.css" type="text/css" media="screen" />
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div id="top">
+	<div class="left">
+	  <a href="/"><h1 id="site_title">ВыборХостинга.ru</h1></a>
+	  <div id="site_description">Выбор хостинга - легко и с удовольствием.</div>
+	</div>
+	<a href="/rss" class="button feed right"><span></span></a>
+	<div class="clearer"></div>
+      </div>
+
+      <div class="path" id="nav">
+
+          <ul id="main_nav">
+            <li>
+<a href="/" >Главная</a>
+</li>
+<li>
+<a href="/provodnik" >Проводник</a>
+</li>
+<li>
+<a href="/enciklopediya" class="current">Энциклопедия</a>
+</li>
+<li>
+<a href="/o-proekte" >О проекте</a>
+</li>
+
+</ul>
+
+		<div class="clearer"></div>
+    </div>
+
+
+      <div id="main">
+	<div class="left" id="main_left">	
+         <div class="post">
+            <h1>Что такое трафик и сколько его надо</h1>
+
+	    
+  <div class="body">
+    <h3>Из чего состоит трафик</h3>
+
+<p>Вся информация, которая скачивается или закачивается на сайт - учитывается.</p>
+<p>Сюда входит:</p>
+
+<ul>
+<li>Запрашиваемые веб страницы. Как они получены - были динамически сформированы сервером или это статическое содержимое - неважно. Каждый раз, когда посетитель заходит на ваш сайт, ему передается веб страница, которую он запросил, и трафик учитывается. Кстати, посетителем здесь может быть не только человек, но и роботы - программы, заходящие на ваш сайт чтобы его проиндексировать для поисковой системы, например.</li>
+<li>Скачанные файлы (конечно, если вы вообще выкладываете какие-либо файлы)</li>
+<li>Трафик, создаваемый вами, тоже учитывается. Например, когда вы отлаживаете и тестируете свой сайт, загружаете на него файлы.</li>
+</ul>
+
+<h3>А сколько трафика нужно мне?</h3>
+
+<p>На этот вопрос есть два ответа.</p>
+
+<ol>
+<li>Честно попытаться прикинуть. Если у вас не файловый сервер, то расчеты могут быть примерно такими:
+Скажем, в среднем веб страница на вашем сайте "весит" вместе с графикой 100 Кб. Если ваш сайт получает 500 посетителей в день (очень оптимистичная оценка), и в среднем они просматривают 3 страницы, то получаем: 500(посетителей) (х) 3(число просмотренных страниц) (х) 100Кб (х) 30 (дней в месяце) = <strong>4.5 Гб</strong> в месяц. Точность такой оценки справедливо может вызывать сомнения. Однако же точнее, чем пальцем в небо.</li>
+<li>Второй способ проще и элегантнее: нужно посмотреть правде в глаза и понять, что вы не можете предсказать сколько трафика вам понабодится. Хотя бы потому, что вы не знаете сколько будет посетителей, на какие страницы они будут заглядывать и как долго оставаться, будут ли скачивать файлы. После осознания этого простого факта осталось взять тарифный план, который предлагает самый небольшой лимит трафика и "вживую" посмотреть какое количество трафика генерирует ваш сайт. При необходимости - приобрести более дорогой тарифный план. Метод проб (без ошибок) 
+здесь - самый подходящий.</li>
+</ol>
+
+<p>К тому же очень часто компании стали предоставлять "неограниченный трафик". А это значит, что подсчитывать вообще ничего не придется. Подробнее о том, что в действительность значит "неограниченный" читайте <a href="/enciklopediya/chto-na-samom-dele-znachit-neogranichennyj-trafik/" title="Что в действительности значит 'трафик неограничен'">здесь</a>.</p>
+
+    
+      <div id="summary">
+	<h3>Итого:</h3>
+	<p>Лимит трафика - какое количество информации может быть скачано/закачено на ваш сайт в рамках данного тарифного плана. Лучшая стратегия для определения сколько же вам надо - это запустить сайт на тарифном плане с небольшим лимитом трафика, а при необходимости перейти на более дорогой.</p>
+      </div>
+    
+    <div class="left"> 
+  <div class="date">
+    05.2009
+  </div> 
+</div>
+<div class="right">
+  <span class="tag">
+    <a href="/poisk/po-metke/трафик" class="tag">трафик</a>
+  </span>
+</div>
+
+  </div>
+
+
+         </div>
+	</div>
+
+	<div class="right" id="main_right">
+	  
+	  <div id="sidebar">
+	    
+
+
+            <div class="content">
+   <form method="get" id="searchform" action="/poisk">
+        <div>
+          <input type="text" value="" name="q" id="s" />
+          <input type="submit" id="searchsubmit" value="Поиск" class="submit" />
+        </div>
+          </form>
+</div>
+
+	<h2>Метки</h2>
+
+
+<div>
+  <ol class="tag_cloud"><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/IIS" class="tag"><span class="caps">IIS</span></a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/IP-адрес" class="tag">IP-адрес</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/VDS" class="tag"><span class="caps">VDS</span></a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/apache" class="tag">apache</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/cpanel" class="tag">cpanel</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/dhcp" class="tag">dhcp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/dos" class="tag">dos</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/ftp" class="tag">ftp</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/htaccess" class="tag">htaccess</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/https" class="tag">https</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/scp" class="tag">scp</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/ssh" class="tag">ssh</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/ssl" class="tag">ssl</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/Мегабайты" class="tag">Мегабайты</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/алиас" class="tag">алиас</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/безопасность" class="tag">безопасность</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/вебсервер" class="tag">вебсервер</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/виртуальный хостинг" class="tag">виртуальный хостинг</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/выделенный сервер" class="tag">выделенный сервер</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/домен" class="tag">домен</a></li><li class="size6"><span>5 pages are tagged with </span><a href="/poisk/po-metke/основы" class="tag">основы</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/размер" class="tag">размер</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/сервер" class="tag">сервер</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/сертификат" class="tag">сертификат</a></li><li class="size2"><span>1 page is tagged with </span><a href="/poisk/po-metke/тест" class="tag">тест</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/трафик" class="tag">трафик</a></li><li class="size3"><span>2 pages are tagged with </span><a href="/poisk/po-metke/хитрость" class="tag">хитрость</a></li><li class="size4"><span>3 pages are tagged with </span><a href="/poisk/po-metke/хостинг" class="tag">хостинг</a></li></ol> 
+</div>
+
+	  </div>
+	</div>
+
+	<div class="clearer"></div>
+
+      </div>
+
+      <div id="footer">
+<div class="left">
+<p>  Материалы данного сайта бесплатны для использования и распространения. <a href="/svobodnaya-licenziya/">Лицензия Creative Common</a>. 
+</p>
+
+Проект выполнене с помощью <a href="http://radiantcms.org/">Radiant CMS</a>.
+Дизайн сайта <a href="http://arcsin.se/">Arcsin</a>
+</div>
+
+<div class="clearer"></div> 
+</div>
+
+    </div>
+    <script src="/javascripts/google-analytics.js" type="text/javascript"/> </script>
+</body>
+</html>
+
