@@ -1,4 +1,7 @@
-Privet
+<%= @question.title %> 
+<ul>
+  <%= render :partial => 'choice', :collection => @question.choices unless @question.choices.blank?%>
+</ul>
 
 <% content_for :sidebar do -%>
   <%= @sidebar -%>
