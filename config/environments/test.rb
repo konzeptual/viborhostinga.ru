@@ -34,3 +34,5 @@ config.gem "rspec", :version => "1.2.4", :lib => false
 config.gem "rspec-rails", :version => "1.2.4", :lib => false
 config.gem "webrat", :version => "~>0.4.4", :lib => false
 config.gem "cucumber", :version => "~>0.3.0", :lib => false
+
+config.gem "thoughtbot-factory_girl", :lib => 'factory_girl', :source => 'http://gems.github.com'
