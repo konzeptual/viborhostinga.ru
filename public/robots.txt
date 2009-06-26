@@ -7,3 +7,4 @@ Sitemap: http://viborhostinga.ru/sitemap.xml
 User-agent: *
 Crawl-Delay: 10
 Disallow: /poisk
+Disallow: /metka
