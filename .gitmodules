@@ -18,4 +18,4 @@
 	url = git://github.com/radiant/radiant-search-extension.git
 [submodule "vendor/extensions/share_layouts"]
 	path = vendor/extensions/share_layouts
-	url = http://github.com/radiant/radiant-share-layouts-extension.git
+	url = git://github.com/radiant/radiant-share-layouts-extension.git
