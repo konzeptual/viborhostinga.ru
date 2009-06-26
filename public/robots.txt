@@ -1,2 +1,9 @@
 # See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+
+# Where is our sitemap?
 Sitemap: http://viborhostinga.ru/sitemap.xml
+
+# forbid access to bots to certin areas.
+User-agent: *
+Crawl-Delay: 10
+Disallow: /poisk
