@@ -4,7 +4,7 @@ Factory.define :survey do |f|
   f.finish_url 'http://viborhostinga.dev'
 end
 
-Factory.define :page do |f|
+Factory.define :survey_page do |f|
   f.sequence(:ordinal_nb) { |n| n }
 end
 
@@ -20,7 +20,7 @@ Factory.define :answer do |f|
 end
 
 def create_page(survey)
-  page = Factory.create(:page, :survey_id => survey)
+  page = Factory.create(:survey_page, :survey_id => survey)
   question = Factory.create(:question, :page_id => page)
   Factory.create(:answer, :question_id => question)
   Factory.create(:answer, :question_id => question)

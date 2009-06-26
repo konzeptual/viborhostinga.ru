@@ -1,3 +1,4 @@
+
 unless defined? RADIANT_ROOT
   ENV["RAILS_ENV"] = "test"
   case
@@ -16,6 +17,8 @@ Dataset::Resolver.default << (File.dirname(__FILE__) + "/datasets")
 if File.directory?(File.dirname(__FILE__) + "/matchers")
   Dir[File.dirname(__FILE__) + "/matchers/*.rb"].each {|file| require file }
 end
+
+require File.dirname(__FILE__) + '/factories'
 
 Spec::Runner.configure do |config|
   # config.use_transactional_fixtures = true

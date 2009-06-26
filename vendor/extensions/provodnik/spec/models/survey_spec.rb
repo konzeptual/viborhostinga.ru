@@ -1,8 +1,8 @@
 context 'General survey functioning' do
 
-  # before do
-  #   @survey = Factory.create(:survey) 
-  # end
+  before do
+    @survey = Factory.create(:survey) 
+  end
 
   it "should require finish_url" do
     survey = Survey.new

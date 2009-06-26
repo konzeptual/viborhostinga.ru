@@ -11,6 +11,14 @@
 
 ActiveRecord::Schema.define(:version => 20081203140407) do
 
+  create_table "choices", :force => true do |t|
+    t.string   "title"
+    t.integer  "question_id"
+    t.integer  "ordinal_nb"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "config", :force => true do |t|
     t.string "key",   :limit => 40, :default => "", :null => false
     t.string "value",               :default => ""
@@ -74,6 +82,14 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
   add_index "pages", ["slug", "parent_id"], :name => "pages_child_slug"
   add_index "pages", ["virtual", "status_id"], :name => "pages_published"
 
+  create_table "questions", :force => true do |t|
+    t.string   "title"
+    t.integer  "page_id"
+    t.integer  "ordinal_nb"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "sessions", :force => true do |t|
     t.string   "session_id"
     t.text     "data"
@@ -95,6 +111,20 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
   end
 
   add_index "snippets", ["name"], :name => "name", :unique => true
+
+  create_table "survey_pages", :force => true do |t|
+    t.integer  "survey_id"
+    t.integer  "ordinal_nb"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "surveys", :force => true do |t|
+    t.string   "title"
+    t.string   "finish_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "taggings", :force => true do |t|
     t.integer "meta_tag_id",   :null => false
