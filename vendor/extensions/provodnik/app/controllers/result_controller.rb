@@ -1,3 +1,0 @@
-class ResultController < ApplicationController
-  
-end
