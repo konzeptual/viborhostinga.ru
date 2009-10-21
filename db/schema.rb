@@ -84,7 +84,7 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
 
   create_table "questions", :force => true do |t|
     t.string   "title"
-    t.integer  "page_id"
+    t.integer  "survey_page_id"
     t.integer  "ordinal_nb"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -117,6 +117,7 @@ ActiveRecord::Schema.define(:version => 20081203140407) do
     t.integer  "ordinal_nb"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "title"
   end
 
   create_table "surveys", :force => true do |t|
