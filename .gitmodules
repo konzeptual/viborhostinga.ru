@@ -1,6 +1,6 @@
 [submodule "vendor/extensions/tags"]
 	path = vendor/extensions/tags
-	url = git@github.com:krick/radiant-tags-extension.git
+	url = git://github.com:krick/radiant-tags-extension.git
 [submodule "vendor/plugins/will_paginate"]
 	path = vendor/plugins/will_paginate
 	url = git://github.com/mislav/will_paginate.git
